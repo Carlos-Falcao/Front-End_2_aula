@@ -71,9 +71,27 @@ section > h2 {
     font-weight: bold;
 }
 
+.lista_cursos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lista_cursos_item {
+    width: 15%;
+    margin: 1% 5% 2%;
+    text-align: center;
+    border: 1px solid black;
+}
+
 .curso_imagem {
-    height: 20%;
-    width: 20%;
+    width: 90%;
+}
+
+.lista_cursos_item > h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: bold;
 }
 
 .nome_produto {
