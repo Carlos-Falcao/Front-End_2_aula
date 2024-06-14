@@ -2,12 +2,16 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #e4d2baf8;
+}
+
 header {
     background-image: linear-gradient(to bottom left, red 65%, #10078d);
-    width: 99%;
+    width: 100%;
     margin: 0.5 auto;
     padding: 1% 10%;
-    font-size: 18pt;
+    font-size: 20pt;
 }
 
 header > img {
@@ -21,7 +25,7 @@ header > h1 {
     font-size: 2rem;
     font-family: "Roboto", sans-serif;
     font-variant: small-caps;
-    text-shadow: 2px 3px 2px #ffffff, -1px -1px ;
+    text-shadow: 1px 1px 1px #fffb00, -1px -1px ;
 }
 
 nav {
@@ -106,4 +110,42 @@ section > h2 {
 
 .nome_produto {
     text-align: left;
+}
+
+footer {
+    background-image: linear-gradient(to bottom, #e4d2baf8, black);
+    color: rgba(255, 255, 255, 0.61);
+    text-align: center;
+}
+
+footer > p {
+    line-height: 4rem;
+    font-size: 1.3rem;
+    margin-top: 2%;
+}
+
+table {
+    font-size: 2rem;
+    text-align: center;
+}
+
+th {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(29, 28, 28, 0.897);
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+    color: black;
+}
+
+td {
+    padding: 10px;
 }
