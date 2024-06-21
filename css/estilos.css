@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to bottom left, red 65%, #10078d);
+    background-image: linear-gradient(to bottom left, red 60%, #10078d);
     width: 100%;
     margin: 0.5 auto;
     padding: 1% 10%;
@@ -148,4 +148,17 @@ tr:nth-child(odd) {
 
 td {
     padding: 10px;
+}
+
+#formulario_nome {
+    width: 15%;
+    font-size: 1.1rem;
+}
+
+#formulario_enviar {
+    display: block;
+    width: 125px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    background-image: linear-gradient(to bottom left, cyan, yellow);
 }
