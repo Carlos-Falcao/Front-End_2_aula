@@ -150,9 +150,44 @@ td {
     padding: 10px;
 }
 
+label {
+    font-size: 1.2rem;
+}
+
 #formulario_nome {
     width: 15%;
     font-size: 1.1rem;
+    margin: 2px;
+}
+
+#formulario_sobrenome {
+    width: 15%;
+    font-size: 1.1rem;
+    margin: 2px;
+}
+
+#formulario_nascimento {
+    width: 8%;
+    font-size: 1.1rem;
+    margin: 2px;
+}
+
+#formulario_email {
+    width: 15%;
+    font-size: 1.1rem;
+    margin: 2px;
+}
+
+#formulario_celular {
+    width: 12%;
+    font-size: 1.1rem;
+    margin: 2px;
+}
+
+#periodo_estudo {
+    width: 12%;
+    font-size: 1.1rem;
+    margin: 2px;
 }
 
 #formulario_enviar {
