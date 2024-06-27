@@ -35,7 +35,7 @@
             <h2>FORMULÁRIO</h2>
             <hr>
 
-            <from action="">
+            <form action="">
                 <!--Inserir nome-->
                 <label for="formulario_nome">Nome:</label>
                 <input type="text" id="formulario_nome" placeholder="Digite seu nome aqui..." required>
@@ -48,15 +48,22 @@
                 <!--Inserir nascimento-->
                 <label for="formulario_nascimento">Data de Nascimento:</label>
                 <input type="date" id="formulario_nascimento" required>
+                <br>
 
                 <!--Inserir email-->
                 <label for="formulario_email">Email:</label>
-                <input type="email" id="formulario_email" placeholder="Coloque seu email aqui..." required>
+                <input type="email" id="formulario_email" placeholder="Digite seu email aqui..." required>
+
+                <!--Inserir senha-->
+                <label for="formulario_senha">Senha:</label>
+                <input type="password" id="formulario_senha" placeholder="Digite sua senha..." required>
+                <br>
 
                 <!--Inserir Telefone-->
                 <label for="formulario_celular">Celular:</label>
-                <input type="tel" id="formulario_celular" placeholder="(xx) xxxx-xxxx">
+                <input type="tel" id="formulario_celular" placeholder="(xx) x xxxx-xxxx">
 
+                <!--Inserir periodo de estudo-->
                 <fieldset>
                     <legend>Período de Estudo:</legend>
                     <select name="periodo_estudo" id="periodo_estudo">
@@ -68,7 +75,7 @@
 
                 <input type="submit" id="formulario_enviar" value="Enviar">
 
-            </from>
+            </form>
 
         </section>
     </main>

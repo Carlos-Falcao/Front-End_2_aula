@@ -152,42 +152,56 @@ td {
 
 label {
     font-size: 1.2rem;
+    font-style: italic;
+    margin-left: 1%;
 }
 
 #formulario_nome {
     width: 15%;
     font-size: 1.1rem;
-    margin: 2px;
+    margin-bottom: 5px;
 }
 
 #formulario_sobrenome {
     width: 15%;
     font-size: 1.1rem;
-    margin: 2px;
+    margin-bottom: 5px;
 }
 
 #formulario_nascimento {
     width: 8%;
     font-size: 1.1rem;
-    margin: 2px;
+    margin-bottom: 5px;
 }
 
 #formulario_email {
     width: 15%;
     font-size: 1.1rem;
-    margin: 2px;
+    margin-bottom: 5px;
+}
+
+#formulario_senha {
+    width: 13%;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
 }
 
 #formulario_celular {
     width: 12%;
     font-size: 1.1rem;
-    margin: 2px;
+    margin-bottom: 5px;
+}
+
+legend {
+    font-size: 1.2rem;
+    margin-left: 1%;
 }
 
 #periodo_estudo {
     width: 12%;
     font-size: 1.1rem;
-    margin: 2px;
+    margin-left: 1%;
+    margin-bottom: 9px;
 }
 
 #formulario_enviar {
@@ -196,4 +210,5 @@ label {
     font-size: 1.2rem;
     line-height: 1.4rem;
     background-image: linear-gradient(to bottom left, cyan, yellow);
+    margin-left: 1%;
 }
