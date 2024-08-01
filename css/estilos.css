@@ -157,37 +157,38 @@ label {
 }
 
 #formulario_nome {
-    width: 15%;
+    width: 23%;
     font-size: 1.1rem;
     margin-bottom: 5px;
+    margin-right: 3%;
 }
 
 #formulario_sobrenome {
-    width: 15%;
+    width: 25%;
     font-size: 1.1rem;
     margin-bottom: 5px;
 }
 
 #formulario_nascimento {
-    width: 8%;
+    width: 14%;
     font-size: 1.1rem;
     margin-bottom: 5px;
 }
 
 #formulario_email {
-    width: 15%;
+    width: 21%;
     font-size: 1.1rem;
     margin-bottom: 5px;
 }
 
 #formulario_senha {
-    width: 13%;
+    width: 21%;
     font-size: 1.1rem;
     margin-bottom: 5px;
 }
 
 #formulario_celular {
-    width: 12%;
+    width: 15%;
     font-size: 1.1rem;
     margin-bottom: 5px;
 }
@@ -211,4 +212,16 @@ legend {
     line-height: 1.4rem;
     background-color: rgb(116, 70, 19);
     margin-left: 1%;
+}
+
+fieldset {
+    margin: 1%;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 6px;
+    width: 60%;
+}
+
+.label_opcao {
+    margin: 2%;
 }
