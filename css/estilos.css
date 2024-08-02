@@ -16,13 +16,13 @@ header {
 
 header > img {
     display: block;
-    width: 20%;
+    width: 10%;
     margin: 1% auto;
 }
 
 header > h1 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: "Roboto", sans-serif;
     font-variant: small-caps;
     text-shadow: 1px 1px 1px #fffb00, -1px -1px ;
@@ -127,6 +127,7 @@ footer > p {
 table {
     font-size: 2rem;
     text-align: center;
+    width: 100%;
 }
 
 th {
@@ -154,13 +155,14 @@ label {
     font-size: 1.2rem;
     font-style: italic;
     margin-left: 1%;
+    margin-right: 0.5%;
 }
 
 #formulario_nome {
-    width: 23%;
+    width: 24%;
     font-size: 1.1rem;
     margin-bottom: 5px;
-    margin-right: 3%;
+    margin-right: 2%;
 }
 
 #formulario_sobrenome {
@@ -170,27 +172,31 @@ label {
 }
 
 #formulario_nascimento {
-    width: 14%;
+    width: 11%;
     font-size: 1.1rem;
     margin-bottom: 5px;
+    margin-top: 0.5%;
 }
 
 #formulario_email {
     width: 21%;
     font-size: 1.1rem;
     margin-bottom: 5px;
+    margin-top: 0.5%;
 }
 
 #formulario_senha {
     width: 21%;
     font-size: 1.1rem;
     margin-bottom: 5px;
+    margin-top: 0.5%;
 }
 
 #formulario_celular {
     width: 15%;
     font-size: 1.1rem;
     margin-bottom: 5px;
+    margin-top: 0.5%;
 }
 
 legend {
@@ -209,7 +215,7 @@ legend {
     display: block;
     width: 125px;
     font-size: 1.2rem;
-    line-height: 1.4rem;
+    line-height: 1.8rem;
     background-color: rgb(116, 70, 19);
     margin-left: 1%;
 }
