@@ -3,50 +3,34 @@
 }
 
 body {
-    background-color: #e4d2baf8;
+    background-color: white;
 }
 
 header {
-    background-image: linear-gradient(to bottom left, red 60%, #10078d);
+    background-image: linear-gradient(to bottom left, rgb(85, 75, 75) 15%, rgb(199, 187, 187));
     width: 100%;
-    margin: 0.5 auto;
     padding: 1% 10%;
     font-size: 20pt;
 }
 
-header > img {
-    display: block;
-    width: 10%;
-    margin: 1% auto;
-}
-
-header > h1 {
-    text-align: center;
-    font-size: 3rem;
-    font-family: "Roboto", sans-serif;
-    font-variant: small-caps;
-    text-shadow: 1px 1px 1px #fffb00, -1px -1px ;
-}
-
-nav {
-    background-color: #1300AA66;
+header > nav {
     width: 100%;
     position: sticky;
     top: 0;
 }
 
-nav > ul {
+header > nav > ul {
     width: 100%;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
 }
 
-nav > ul > li {
+header > nav > ul > li {
     line-height: 1.3rem;
 }
 
-nav > ul > li > a {
+header > nav > ul > li > a {
     text-decoration: none;
     color: black;
     line-height: 2.5rem;
@@ -55,16 +39,31 @@ nav > ul > li > a {
     display: block;
 }
 
-nav > ul > li > a:hover {
+header > nav > ul > li > a:hover {
     font-size: 1.8rem;
-    color: cadetblue;
+    color: rgb(84, 170, 173);
     transition: all 500ms;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner > img {
+    display: block;
+    width: 100%;
+}
+
+.banner > h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
 
 section {
     width: 98%;
     margin: 1% auto;
-    background-image: linear-gradient(to bottom left, black, #e4d2baf8 17%);
+    background-image: linear-gradient(to bottom left, black, #f5f3f0f8 17%);
     border: 3px solid rgb(43, 40, 40);
     border-radius: 5px;
     padding: 1% 3% 2%;
@@ -72,16 +71,15 @@ section {
 
 section > h2 {
     font-size: 1.6rem;
-    /*font-family: ubuntu sans*/
     font-weight: bold;
 }
 
-.lista_cursos {
+.lista_produtos {
     display: flex;
     flex-wrap: wrap;
 }
 
-.lista_cursos_item {
+.lista_produto_item {
     width: 15%;
     margin: 1% 5% 2%;
     text-align: center;
@@ -93,141 +91,17 @@ section > h2 {
     box-shadow: 3px 2px 2px black, 6px 5px 6px blueviolet;
 }
 
-.curso_imagem {
-    width: 90%;
-}
-
-.lista_cursos_item > h3 {
+.lista_produto_item > h3 {
     text-align: center;
     font-size: 1.5rem;
     line-height: 2rem;
     font-weight: bold;
 }
 
-.lista_cursos_item:hover {
+.lista_produto_item:hover {
     box-shadow: 5px 4px 4px black, 10px 9px 10px red;
 }
 
 .nome_produto {
     text-align: left;
-}
-
-footer {
-    background-image: linear-gradient(to bottom, #e4d2baf8, black);
-    color: rgba(255, 255, 255, 0.61);
-    text-align: center;
-}
-
-footer > p {
-    line-height: 4rem;
-    font-size: 1.3rem;
-    margin-top: 2%;
-}
-
-table {
-    font-size: 2rem;
-    text-align: center;
-    width: 100%;
-}
-
-th {
-    background-color: black;
-    color: white;
-    padding: 10px;
-    font-weight: bold;
-}
-
-tr:nth-child(even) {
-    background-color: rgba(29, 28, 28, 0.897);
-    color: white;
-}
-
-tr:nth-child(odd) {
-    background-color: white;
-    color: black;
-}
-
-td {
-    padding: 10px;
-}
-
-label {
-    font-size: 1.2rem;
-    font-style: italic;
-    margin-left: 1%;
-    margin-right: 0.5%;
-}
-
-#formulario_nome {
-    width: 24%;
-    font-size: 1.1rem;
-    margin-bottom: 5px;
-    margin-right: 2%;
-}
-
-#formulario_sobrenome {
-    width: 25%;
-    font-size: 1.1rem;
-    margin-bottom: 5px;
-}
-
-#formulario_nascimento {
-    width: 11%;
-    font-size: 1.1rem;
-    margin-bottom: 5px;
-    margin-top: 0.5%;
-}
-
-#formulario_email {
-    width: 21%;
-    font-size: 1.1rem;
-    margin-bottom: 5px;
-    margin-top: 0.5%;
-}
-
-#formulario_senha {
-    width: 21%;
-    font-size: 1.1rem;
-    margin-bottom: 5px;
-    margin-top: 0.5%;
-}
-
-#formulario_celular {
-    width: 15%;
-    font-size: 1.1rem;
-    margin-bottom: 5px;
-    margin-top: 0.5%;
-}
-
-legend {
-    font-size: 1.2rem;
-    margin-left: 1%;
-}
-
-#periodo_estudo {
-    width: 12%;
-    font-size: 1.1rem;
-    margin-left: 1%;
-    margin-bottom: 9px;
-}
-
-#formulario_enviar {
-    display: block;
-    width: 125px;
-    font-size: 1.2rem;
-    line-height: 1.8rem;
-    background-color: rgb(116, 70, 19);
-    margin-left: 1%;
-}
-
-fieldset {
-    margin: 1%;
-    border: 1px solid black;
-    border-radius: 12px;
-    padding: 6px;
-    width: 60%;
-}
-
-.label_opcao {
-    margin: 2%;
 }
