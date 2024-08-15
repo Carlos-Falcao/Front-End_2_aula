@@ -231,3 +231,13 @@ fieldset {
 .label_opcao {
     margin: 2%;
 }
+
+@media screen and (max-width: 500px) {
+    nav {
+        background-color: red;
+    }
+
+    nav-ul {
+        flex-direction: column;
+    }
+}
