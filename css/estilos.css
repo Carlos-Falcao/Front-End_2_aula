@@ -4,6 +4,11 @@
 
 body {
     background-color: #e4d2baf8;
+    font-size: 1.5rem;
+}
+
+h2, p {
+    padding-bottom: 2%;
 }
 
 header {
@@ -119,9 +124,10 @@ footer {
 }
 
 footer > p {
-    line-height: 4rem;
+    line-height: 3rem;
     font-size: 1.3rem;
     margin-top: 2%;
+    margin-bottom: 0;
 }
 
 table {
